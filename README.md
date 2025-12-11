@@ -3,7 +3,7 @@ Uso de micro controlador para controle de servo motor
 
 Os códigos deste repositório foram feitos para controlar servo motores usando ESP32 ou Arduino Uno a partir da linguagem C++.
 
-No projeto realizado, os servos foram usados para mover pás a partir de um braço mecânico para gerar pequenas ondulações em uma piscina.
+No projeto realizado, os servos foram usados para mover pás a partir de um braço mecânico para gerar pequenas ondulações em uma piscina. A sigla GO faz referência a Gerador de Ondas.
 
 Na versão para ESP32, o código gera uma página em html como interface gráfica para o controle dos servos. Esta página pode ser acessada via o WiFi cujo o nome e senha estão declarados no início do código.
 
