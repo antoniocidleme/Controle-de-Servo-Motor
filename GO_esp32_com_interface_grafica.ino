@@ -217,7 +217,6 @@ void handleRoot() {
 
 // ----- Função de acionamento de botão -----
 void handleBotao() {
-  Serial.println("Botao apertado");
   int acao = server.arg("acao").toInt();
 
   switch (acao) {
@@ -290,9 +289,6 @@ void handleBotao() {
       destino = "#geral";
       break;
   }
-
-  Serial.println(posicaoInicialServo1);
-  Serial.println(controleServo1);
 
   // Redirecionamento da página
   server.sendHeader("Location", String("/") + destino);
